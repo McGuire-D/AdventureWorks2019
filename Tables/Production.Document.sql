@@ -82,7 +82,3 @@ EXEC sp_addextendedproperty N'MS_Description', N'Clustered index created by a pr
 GO
 CREATE FULLTEXT INDEX ON [Production].[Document] KEY INDEX [PK_Document_DocumentNode] ON [AW2016FullTextCatalog]
 GO
-ALTER FULLTEXT INDEX ON [Production].[Document] ADD ([DocumentSummary] LANGUAGE 1033)
-GO
-ALTER FULLTEXT INDEX ON [Production].[Document] ADD ([Document] TYPE COLUMN [FileExtension] LANGUAGE 1033)
-GO

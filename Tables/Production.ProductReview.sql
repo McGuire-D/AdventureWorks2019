@@ -52,5 +52,3 @@ EXEC sp_addextendedproperty N'MS_Description', N'Clustered index created by a pr
 GO
 CREATE FULLTEXT INDEX ON [Production].[ProductReview] KEY INDEX [PK_ProductReview_ProductReviewID] ON [AW2016FullTextCatalog]
 GO
-ALTER FULLTEXT INDEX ON [Production].[ProductReview] ADD ([Comments] LANGUAGE 1033)
-GO

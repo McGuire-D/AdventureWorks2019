@@ -34,5 +34,3 @@ EXEC sp_addextendedproperty N'MS_Description', N'Clustered index created by a pr
 GO
 CREATE FULLTEXT INDEX ON [HumanResources].[JobCandidate] KEY INDEX [PK_JobCandidate_JobCandidateID] ON [AW2016FullTextCatalog]
 GO
-ALTER FULLTEXT INDEX ON [HumanResources].[JobCandidate] ADD ([Resume] LANGUAGE 1033)
-GO
